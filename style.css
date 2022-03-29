@@ -1,0 +1,74 @@
+input {
+  margin-right: 3px;
+  width: 30vw;
+}
+
+button {
+  width: 20vw;
+  border: solid 1px #FF9700;
+  border-radius: 3px;
+  background-color: white;
+}
+
+button:hover {
+  background-color: #61D89F;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2vw;
+}
+
+.root-svg {  
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 2vh;
+}
+
+.input-item {
+  display: flex;
+
+  height: 30px;
+  margin: 3px;
+}
+
+.svg {
+  outline: 3px solid #7F8C8D;
+  border-radius: 5px;
+  width: 500px;
+  height: 500px;
+}
+
+.path-create {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #FF9700;
+  stroke-width: 5;
+  fill: none;
+}
+
+.path-ready {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+.point-start {
+  fill: #61D89F;
+  stroke: #61D89F;
+  stroke-width: 3px;
+}
+
+.point-start:hover {
+  stroke: #FF9700;
+}

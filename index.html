@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Shape Editor</title>
+</head>
+<body>
+  <div class="root">
+    <div class="input-block">
+      <div class="input-item">
+        <input class="type-fill" type="text" placeholder="type color"/>
+        <button class="add-fill">Apply fill</button>
+      </div>
+
+      <div class="input-item">
+        <input class="type-stroke" type="text" placeholder="type color"/>
+        <button class="add-stroke">Apply stroke</button>
+      </div>
+      <div class="input-item">
+        <input class="type-width" type="text" placeholder="type stroke width"/>
+        <button class="add-width">Apply width</button>
+      </div>
+    </div>
+
+    <div class="root-svg">
+      <svg class="svg" xmlns="http://www.w3.org/2000/svg"> 
+      </svg>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
