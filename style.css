@@ -1,10 +1,10 @@
 input {
-  margin-right: 3px;
+  margin-right: 0.5vw;
   width: 30vw;
 }
 
 button {
-  width: 20vw;
+  width: 18.5vw;
   border: solid 1px #FF9700;
   border-radius: 3px;
   background-color: white;
@@ -39,14 +39,14 @@ button:hover {
   display: flex;
 
   height: 30px;
-  margin: 3px;
+  margin: 3px 0 3px 0;
 }
 
 .svg {
   outline: 3px solid #7F8C8D;
   border-radius: 5px;
-  width: 500px;
-  height: 500px;
+  width: 50vw;
+  height: 400px;
 }
 
 .path-create {
