@@ -51,9 +51,6 @@ function hundleClickPoint () {
   const path = document.querySelector('.path-create')
   const dPath = path.getAttributeNS(null, 'd')
 
-  this.addEventListener('mouseup', () => {
-      this.setAttributeNS(null, 'class', ':hover')
-  })
   this.addEventListener('click', () => {
     this.remove()
 
